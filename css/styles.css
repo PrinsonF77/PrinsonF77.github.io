@@ -1,0 +1,155 @@
+html{
+  scroll-behavior: smooth;
+}
+
+section{
+  margin:10px;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  height: 24vh;
+  background-image: url(../img/logo3.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: 50% 52%;
+  font-family: 'Cairo', sans-serif;
+}
+
+h2{
+  font-family:'Cairo', sans-serif;
+}
+
+.odd{
+  background-color: #e6e6e6;
+}
+
+.even{
+  background-color:rgba(0,32,194);
+  color: #fff;
+}
+
+figcaption{
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1{
+  display:none;
+}
+footer{
+  text-align: center;
+}
+
+.fa{
+  padding:10px;
+  font-size:30px;
+  width:50px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 50%;
+  margin:0 10px 10px 10px;
+}
+
+.fa-facebook{
+  background: #3B5998;
+  color: #fff;
+}
+
+.fa-instagram{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  color: #fff;
+}
+
+.fa-twitter{
+  background: #007bff;
+  color: #fff;
+}
+
+
+#btn{
+  display:none;
+  z-index:99;
+  position: fixed;
+  bottom:10px;
+  right:10px;
+  border:none;
+  outline: none;
+  background: none;
+  cursor:pointer;
+}
+
+.fa-arrow-up{
+    background: #000;
+    color: #fff;
+}
+
+.fa-arrow-up:hover{
+  opacity: 0.7;
+}
+
+footer a i:hover{
+  opacity: 0.7;
+}
+
+iframe{
+  margin-bottom:15px;
+  border: none;
+  height: 425px;
+}
+
+
+.carousel-inner > .carousel-item{
+  margin-bottom: 15px;
+}
+
+h3{
+  background: rgba(0,0,0,0.5)
+}
+
+.carousel-caption h3{
+  font-size:15px;
+}
+
+.carousel-caption > a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.carousel-inner > .carousel-item > img{
+  height:40vh;
+  margin:auto;
+}
+
+@media only screen and (min-width:576px){
+.carousel-inner > .carousel-item > img{
+  height:75vh;
+  margin:auto;
+}
+
+.carousel-inner > .carousel-item{
+  margin-bottom: 15px;
+}
+
+.carousel-caption>a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.carousel-caption h3{
+  font-size:2.5rem;
+}
+}
+
+thead{
+  background: rgb(5,194,253);
+  background: radial-gradient(circle, rgba(5,194,253,1) 0%, rgba(14,0,255,1) 100%);
+  color: #fff;
+  text-align: center;
+}
+
+tbody{
+  text-align: center;
+}
